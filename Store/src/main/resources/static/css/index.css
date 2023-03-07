@@ -1,0 +1,156 @@
+
+.bg-img { /*for the photo below the nav bar*/
+    background-image: url("../img/manage1.jpg");
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+a.active { /* color of the nav bar  */
+    color: white;
+}
+
+ul { /* size and positon of the nav bar  */
+    list-style-type: none;
+    font-size: 13.96px;
+    padding: 0px;
+}
+
+li { /*size and position of the entire navigation bar*/
+    float:left;
+}
+
+li a, .dropbtn {  /*color and position of the dropdown nav bar button*/
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 120.65px;
+    text-decoration: none;
+    background-color:black ;
+}
+
+li a:hover, .dropdown:hover .dropbtn {  /*opacity of the dropdown button*/
+    opacity:0.8;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 50px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {  /*it makes the elementines a block*/
+    display: block;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');  /*import url*/
+
+.pos { /* style of border and text. Size  and position of the text.Partial style of the animation.*/
+    border-right: solid 3px white;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 20px;
+    color:black;
+    margin-top: 360px;
+    margin-left: 500px;;
+
+}
+.post{  /*animation time and partial style*/
+    animation: animated-text 4s steps(40,end) 1s 1 normal both,
+    animated-cursor 600ms steps(40,end) infinite;
+}
+
+@keyframes animated-text{/*animation time and partial style*/
+    from{width: 0px;}
+    to{width: 520px;}
+}
+
+
+.a {/*style of border on the picture"Our purpuse"*/
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 7px;
+    background-color:white;
+}
+
+.mqs{ /*position of first video and picture*/
+    padding:50px;
+}
+
+.m{ /*position of picture"Our purpuse"*/
+    float:right;
+    margin:50px;
+}
+
+.m1{ /*position of first text*/
+    float:right;
+    font-size:20px;
+}
+
+.m2{
+    float:left;
+    margin:90px;
+    font-size:18px;
+}
+
+.m3{
+    margin:80px;
+    float:left;
+}
+.m4{
+    margin:110px;
+    float:right;
+    font-size:20px;
+}
+
+.color1{
+    color:white;
+}
+
+.left1{
+    float:left;
+}
+
+.pad_img{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0px 28.7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15.5px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.size3{
+    background-color: black;
+}
+
