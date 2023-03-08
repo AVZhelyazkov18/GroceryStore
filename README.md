@@ -40,8 +40,8 @@ Download the app from [github](https://github.com/AVZhelyazkov18/RetailStore.git
 ## Used technologies:
 - IntelliJ IDEA
 - GitHub
-- H2 Database
+- MS SQL
 - Microsoft Teams
-- Html and Css
-- For programming language we used: Java
+- Html and CSS
+- Java Spring
 ***
